@@ -1,0 +1,19 @@
+PODS:
+  - Hue (2.0.1)
+  - Imager (1.0.0):
+    - Hue
+
+DEPENDENCIES:
+  - Imager (from `../`)
+
+EXTERNAL SOURCES:
+  Imager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  Imager: 6bdfbc27009c27614de6ec946682553967b03bdb
+
+PODFILE CHECKSUM: f44504e009e9fd602fbbf6207499a20ba10c9053
+
+COCOAPODS: 1.2.1

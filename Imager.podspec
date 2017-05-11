@@ -24,8 +24,9 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
-  s.source_files = 'Imager/Sources/**/*{.swift}','Imager/Resources/**/*'
-  s.public_header_files = 'Imager/**/*{.h}'
+  s.source_files = 'Imager/Sources/**/*{.swift}', 'Imager/Imager.h'
+  s.public_header_files = 'Imager/Imager.h'
+  s.resources = 'Imager/Resources/Imager.bundle'
   s.frameworks = 'Foundation', 'AVKit', 'AVFoundation', 'UIKit'
   s.dependency "Hue"
 end
