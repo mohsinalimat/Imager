@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  ImagerExample
+
+  Created by Meniny on 2017-05-11.
+  Copyright © 2017年 Meniny. All rights reserved.
+*/
+"Close" = "关闭";
+"Delete" = "删除";
+"More" = "更多";
