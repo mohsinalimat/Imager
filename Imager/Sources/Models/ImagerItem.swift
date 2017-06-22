@@ -3,7 +3,7 @@ import UIKit
 
 open class ImagerItem {
     
-    open static var defaultImageURL = "http://meniny.cn/assets/images/default.jpg"
+    open static var defaultImageURL = "https://meniny.cn/assets/images/default.jpg"
     
     open fileprivate(set) var image: UIImage?
     open fileprivate(set) var imageURL: URL?
